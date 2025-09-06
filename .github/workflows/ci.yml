@@ -5,6 +5,8 @@ on:
     branches: [ master, develop ]
   pull_request:
     branches: [ master, develop ]
+  schedule:
+    - cron: '0 9 * * 1' # Every Monday at 9 AM UTC
 
 jobs:
   type-check:
