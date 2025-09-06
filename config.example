@@ -1,0 +1,13 @@
+# Bakul MCP Server Configuration
+# Set your API key as an environment variable
+
+# Your Bakul API key (get one by registering a user)
+export BAKUL_API_KEY=your_api_key_here
+
+# Alternative environment variable name
+# export API_KEY=your_api_key_here
+
+# To use this configuration:
+# 1. Copy this file to your shell profile or run: source config.example
+# 2. Replace 'your_api_key_here' with your actual API key
+# 3. Run the MCP server: pnpm start
