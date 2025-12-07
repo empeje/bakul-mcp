@@ -24,7 +24,7 @@
   "license": "ISC",
   "packageManager": "pnpm@10.8.1",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.24.0",
+    "@modelcontextprotocol/sdk": "^1.24.3",
     "zod": "^3.25.76",
     "zod-to-json-schema": "^3.25.0"
   },
