@@ -18,7 +18,7 @@ importers:
         version: 1.26.0(zod@4.3.6)
       hono:
         specifier: '>=4.11.4'
-        version: 4.11.7
+        version: 4.11.9
       zod:
         specifier: ^4.3.6
         version: 4.3.6
@@ -1066,8 +1066,8 @@ packages:
     resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
     engines: {node: '>= 0.4'}
 
-  hono@4.11.7:
-    resolution: {integrity: sha512-l7qMiNee7t82bH3SeyUCt9UF15EVmaBvsppY2zQtrbIhl/yzBTny+YUxsVjSjQ6gaqaeVtZmGocom8TzBlA4Yw==}
+  hono@4.11.9:
+    resolution: {integrity: sha512-Eaw2YTGM6WOxA6CXbckaEvslr2Ne4NFsKrvc0v97JD5awbmeBLO5w9Ho9L9kmKonrwF9RJlW6BxT1PVv/agBHQ==}
     engines: {node: '>=16.9.0'}
 
   html-escaper@2.0.2:
@@ -1805,9 +1805,9 @@ snapshots:
       '@eslint/core': 0.17.0
       levn: 0.4.1
 
-  '@hono/node-server@1.19.9(hono@4.11.7)':
+  '@hono/node-server@1.19.9(hono@4.11.9)':
     dependencies:
-      hono: 4.11.7
+      hono: 4.11.9
 
   '@humanfs/core@0.19.1': {}
 
@@ -1831,7 +1831,7 @@ snapshots:
 
   '@modelcontextprotocol/sdk@1.26.0(zod@4.3.6)':
     dependencies:
-      '@hono/node-server': 1.19.9(hono@4.11.7)
+      '@hono/node-server': 1.19.9(hono@4.11.9)
       ajv: 8.17.1
       ajv-formats: 3.0.1(ajv@8.17.1)
       content-type: 1.0.5
@@ -1841,7 +1841,7 @@ snapshots:
       eventsource-parser: 3.0.6
       express: 5.2.1
       express-rate-limit: 8.2.1(express@5.2.1)
-      hono: 4.11.7
+      hono: 4.11.9
       jose: 6.1.3
       json-schema-typed: 8.0.2
       pkce-challenge: 5.0.1
@@ -2512,7 +2512,7 @@ snapshots:
     dependencies:
       function-bind: 1.1.2
 
-  hono@4.11.7: {}
+  hono@4.11.9: {}
 
   html-escaper@2.0.2: {}
 
