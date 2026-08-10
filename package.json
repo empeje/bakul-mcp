@@ -36,7 +36,7 @@
     "@typescript-eslint/parser": "^8.66.0",
     "@vitest/coverage-v8": "^4.1.10",
     "@vitest/ui": "^4.1.10",
-    "eslint": "^9.39.2",
+    "eslint": "^10.8.0",
     "prettier": "^3.9.6",
     "tsx": "^4.23.10",
     "typescript": "^5.9.3",
